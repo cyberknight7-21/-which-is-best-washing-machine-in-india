@@ -157,7 +157,7 @@
 				
 				
 			
-				 <div class=" filterDiv tv">
+				
                     <div class="single_property">
                         <div class="property_thumb">
                             <div class="property_tag">
@@ -198,7 +198,7 @@
                                 </ul>
                             </div>
                     </div>
-                </div>
+                
 				</div>
 				<!-- 2nd product ends -->
 				
@@ -210,7 +210,7 @@
 				
 				
 			
-				 <div class=" filterDiv tv">
+				 
                     <div class="single_property">
                         <div class="property_thumb">
                             <div class="property_tag">
@@ -251,7 +251,7 @@
                                 </ul>
                             </div>
                     </div>
-                </div>
+               
 				</div>
 				<!-- 3 product ends -->
 				
@@ -263,7 +263,7 @@
 				
 				
 			
-				 <div class=" filterDiv tv">
+				 
                     <div class="single_property">
                         <div class="property_thumb">
                             <div class="property_tag">
@@ -305,7 +305,7 @@
                                 </ul>
                             </div>
                     </div>
-                </div>
+              
 				</div>
 				<!-- 4 product ends -->
 				
@@ -328,7 +328,7 @@
 				
 				
 			
-				 <div class=" filterDiv tv">
+				
                     <div class="single_property">
                         <div class="property_thumb">
                             <div class="property_tag">
@@ -369,7 +369,7 @@
                                 </ul>
                             </div>
                     </div>
-                </div>
+             
 				</div>
 				<!-- 5 product ends -->
                <!-- 2nd Product  -->
@@ -378,7 +378,7 @@
 				
 				
 			
-				 <div class=" filterDiv tv">
+				
                     <div class="single_property">
                         <div class="property_thumb">
                             <div class="property_tag">
@@ -419,7 +419,7 @@
                                 </ul>
                             </div>
                     </div>
-                </div>
+             
 				</div>
 				<!-- 2nd product ends -->
 				
@@ -432,7 +432,7 @@
 				
 				
 			
-				 <div class=" filterDiv tv">
+				 
                     <div class="single_property">
                         <div class="property_thumb">
                             <div class="property_tag">
@@ -473,7 +473,7 @@
                                 </ul>
                             </div>
                     </div>
-                </div>
+              
 				</div>
 				<!--3 product ends -->
 				
@@ -485,7 +485,7 @@
 				
 				
 			
-				 <div class=" filterDiv tv">
+				
                     <div class="single_property">
                         <div class="property_thumb">
                             <div class="property_tag">
@@ -526,7 +526,7 @@
                                 </ul>
                             </div>
                     </div>
-                </div>
+                
 				</div>
 				<!-- 4 product ends -->
 				
@@ -538,7 +538,7 @@
 				
 				
 			
-				 <div class=" filterDiv tv">
+				 
                     <div class="single_property">
                         <div class="property_thumb">
                             <div class="property_tag">
@@ -582,7 +582,7 @@
                 </div>
 				</div>
 				<!-- 5 product ends -->
-				</div>
+				
 				</div>
 				
 				
@@ -601,60 +601,7 @@
 
     <!-- footer start -->
     <footer class="footer">
-        <div class="footer_top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-3 col-md-6 col-lg-3">
-                        <div class="footer_widget">
-                            <div class="footer_logo">
-                                <a href="#">
-                                    <img src="img/footer_logo.png" alt="">
-                                </a>
-                            </div>
-							<p> This Website is Affiliated with Amazon Affiliation Program.</p>
-                            
-                            <div class="socail_links">
-                                <ul>
-                                    <li>
-                                        <a href="#">
-                                            <i class="ti-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="ti-twitter-alt"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-instagram"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-
-                        </div>
-                    </div>
-                    
-                    <div class="col-xl-2 col-md-6 col-lg-2">
-                        <div class="footer_widget">
-                            <h3 class="footer_title">
-                                    Useful Links
-                            </h3>
-                            <ul>
-                                <li><a href="#">Electronics</a></li>
-                                <li><a href="#">Laptops</a></li>
-                                <li><a href="#"> Mobiles</a></li>
-                                <li><a href="#">Appointment</a></li>
-                          
-							       
-                              </ul>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
+        
         <div class="copy-right_text">
             <div class="container">
                 <div class="footer_border"></div>
@@ -782,58 +729,13 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			
 			
 			
-			filterSelection("all")
-function filterSelection(c) {
-  var x, i;
-  x = document.getElementsByClassName("filterDiv");
-  if (c == "all") c = "";
-  for (i = 0; i < x.length; i++) {
-    w3RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-  }
-}
-
-function w3AddClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-  }
-}
-
-function w3RemoveClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);     
-    }
-  }
-  element.className = arr1.join(" ");
-}
-
-// Add active class to the current button (highlight it)
-var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("btnxx");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function(){
-    var current = document.getElementsByClassName("activexx");
-    current[0].className = current[0].className.replace(" activexx", "");
-    this.className += " activexx";
-  });
-}
+	
 
 
 
 </script>
-<script>
-var Toplist1 = "     T.Vs    ";
-var result = Toplist1.fontsize(7);
-document.getElementById("tp").innerHTML = result;
-</script>
-    </script>
+
+   
 </body>
 
 </html>
